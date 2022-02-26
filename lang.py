@@ -1966,7 +1966,7 @@ class Interpreter:
     if not value:
       return res.failure(NotDefinedError(
         node.pos_start, node.pos_end,
-        f"name \"{var_name}\" is not defined",
+        f"name \"{var_name}\" is not defined\n",
       ))
 
     value = value.copy().set_pos(node.pos_start, node.pos_end).set_context(context)
