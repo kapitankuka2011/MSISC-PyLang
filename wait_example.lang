@@ -1,0 +1,5 @@
+cls()
+var inputed = input_msg("How much to wait?>")
+wait(inputed)
+print("Done!")
+pause()

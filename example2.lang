@@ -1,0 +1,19 @@
+def function()
+	print("Helo!")
+end
+
+def loop()
+	for i = 0 to 15 then
+		print("this is a loop!")
+		#print("a wait command?!?!?!?!")
+		#wait(3)
+		#print("no waiting now but break!")
+		#break
+	end
+	wait(1)
+	#print("a break command too!?!?!??!")
+	#break
+end
+
+function()
+loop()

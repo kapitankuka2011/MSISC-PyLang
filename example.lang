@@ -1,0 +1,11 @@
+#This is a comment!
+cls()
+var variable = "This is a variable!"
+print("Hello World!")
+print("Variable: " + variable)
+#print("Input:")
+var inputed = input_msg("Enter Text>")
+print("Printing...")
+wait(5)
+print("Text: " + inputed)
+pause()
