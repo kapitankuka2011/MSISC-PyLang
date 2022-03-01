@@ -2207,6 +2207,7 @@ global_symbol_table.set("exec", BuiltInFunction.cmd)
 global_symbol_table.set("python", BuiltInFunction.py)
 global_symbol_table.set("py", BuiltInFunction.py)
 global_symbol_table.set("exit", BuiltInFunction.exit)
+global_symbol_table.set("quit", BuiltInFunction.exit)
 
 global_symbol_table.set("NULL", Number.null)
 global_symbol_table.set("FALSE", Number.false)
@@ -2238,6 +2239,7 @@ global_symbol_table.set("EXECUTE", BuiltInFunction.cmd)
 global_symbol_table.set("EXEC", BuiltInFunction.cmd)
 global_symbol_table.set("PYTHON", BuiltInFunction.py)
 global_symbol_table.set("PY", BuiltInFunction.py)
+global_symbol_table.set("QUIT", BuiltInFunction.exit)
 global_symbol_table.set("EXIT", BuiltInFunction.exit)
 
 
